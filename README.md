@@ -3,6 +3,8 @@
 Real-time subtitle overlay for **Earth Defense Force 4.1** (PC).
 Hooks voice playback via Frida and displays subtitles in a Win32 layered window.
 
+![Working Subtitle](subtitle.png)
+
 **Vibe Coding Warning**: This waaaaaaaagh thing can run thanks to Claude-Sonnet-4.6.
 
 **WIP Warning**: Yeah it works, but is not reaching expectations. Many works needs to be done.
