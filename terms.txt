@@ -1,0 +1,110 @@
+# EDF4.1 術語表（從 subtitles.txt 首輪擷取）
+# source: subtitles.txt
+# format: 標準詞頭 | 建議 zh-tw | 備註
+# note:
+# - 這是從 raw STT 稿做的第一輪術語整理，不是最終定稿。
+# - obs: 後面保留原始轉錄裡的變體，之後翻譯時一律先收斂到同一個詞頭。
+# - 標了「待確認」或「低信度」的，代表像專有名詞，但最終拼法或譯法最好再聽一次。
+# - 2026-04-10 補記：部分詞頭已用 D3 官方 EDF4.1 頁面交叉確認。
+# - 翻譯規則補記：若已有日文片假名官方名，專有名詞／代號可優先採音譯；但語義明確的 common noun、兵器職能名、隊名可依使用者指示直譯或意譯。
+
+【組織・指揮系統】
+EDF | EDF（地球防衛軍） | obs: Earth Defense Force
+Headquarters | 司令部 | obs: HQ, Headquarters, Command HQ, Command Headquarters, Strategic Command Headquarters, EDF Command Headquarters
+Air Force | 空軍 |
+Storm Team | 暴風小隊 | official JP: 特殊遊撃チーム「ストーム」；可直接沿用 EDF5 用法
+Pale Team | 蒼白小隊 | user-confirmed 直譯；official JP: ペイルチーム；飛翼潛行兵精銳部隊
+Omega Team | 歐米茄小隊（暫） |
+Porters | 波特斯運輸隊 | official JP: 輸送部隊ポーターズ；obs: Porters, Porter's 3, Porter-7, Reporters
+Scout | 偵察隊 | obs: Scout 1/2/4/6/8/10/14/16/21
+Fleet 8 | 第八艦隊（暫） |
+O'Hara | 歐哈拉 | obs: O'Hara, Ohara；掠奪者研究員
+
+【兵科】
+Ranger | 突擊兵 | official JP: レンジャー；可直接沿用 EDF5 用法
+Wing Diver | 飛翼潛行兵 | official JP: ウイングダイバー；obs: wing diver, Wingdiver, Winged Diver, Winged Divers, wingdivers
+Air Raider | 空襲兵 | official JP: エアレイダー；可直接沿用 EDF5 用法
+Fencer | 劍兵 | official JP: フェンサー；可直接沿用 EDF5 用法
+Special Forces Infantry | 特戰步兵（暫） | 教學文案，對應 Ranger
+Aerial Spotter | 空襲引導員（暫） | 教學文案，對應 Air Raider
+Flying Assault Trooper | 飛行突擊兵（暫） | 教學文案，對應 Wing Diver
+
+【敵方・生物・代號】
+Ravagers | 掠奪者 | user-revised；official JP: フォーリナー；raw EN: Ravagers
+giant insects | 巨大昆蟲 |
+flying giant insects | 飛行巨大昆蟲 |
+Retiarius | 雷塔留斯 | in-session decision；official JP: レタリウス；raw STT 常作 Retarius
+Queen | 女王 |
+Queen's Hall | 女王巢室 | official JP: 女王の間
+hive | 巢穴 |
+underground tunnel exit | 地底隧道出口 |
+Underground Kingdom | 地底王國 | in-session decision；地下世界相關通用文案
+mothership | 母艦 |
+transport ship | 運輸飛船 |
+Hector | 赫克托爾 | official JP: ヘクトル；雙足戰機器
+Shield Bearer | 持盾者 | user-revised；official JP: シールドベアラー；obs: Shieldbearer, shield-bearer, Shieldbearers
+shield screen | 護盾屏障 | in-session decision；目前全文先固定此譯法
+Quadruped Moving Fortress | 四足要塞 | official JP: 四足歩行要塞；劇中常簡稱四足要塞；raw STT 常簡成 Quadruped Fortress
+Earth Eater | 地球吞噬者 | user-revised；official JP: アースイーター；obs: Earth Eaters, Earth-eater, Earth-eaters, Earth-Eaters, Earth heaters, Black Earth Eaters
+Brain | 主腦 | user-revised；地球吞噬者群的中樞／旗艦
+DeRoy | 迪洛伊 | official JP: ディロイ；obs: DeRoys, Duroys, Doroids
+dragon | 巨龍 |
+Erginus | 艾爾基努斯 | official JP: エルギヌス；obs: Urginis；可沿用 EDF5 用法
+Argo | 阿爾戈 | official JP: 巨大戦艦アルゴ；巨大戰艦代號
+Operation Sweep Giant Insects | 掃蕩巨大昆蟲作戰（暫） |
+Area A6 / G1 / G5 / G6 / F4 / D3 | 區域代碼 | 指揮部與最終防衛區用
+Kirikawa Air Base | 霧川空軍基地 | in-session decision；raw STT/EN: Kirikawa；secondary 常見作 Kirakawa
+
+【載具・航空器・火力支援】
+Whale | 霍艾爾 | official JP: ホエール；heavy air support aircraft
+Hydra | 希德拉 | official JP: ヒドラ；transport helicopter
+Despina | 德斯皮娜 | secondary: EDF Wiki；要塞航空母艦
+Vegalta | 貝加爾塔 | official JP: ベガルタ；obs: BM03 Vigalta, BM-03 VEG-ALTA, Vigalta, Vigalta M2
+Gigantus | 吉甘提斯 | official JP: ギガンテス；raw STT: Gigantis
+Bazelart | 巴澤拉特 | official JP: EF24バゼラート；raw STT: Baselart
+Caravan Armored Support Vehicle | 卡拉班裝甲支援車 | in-session decision；raw EN vehicle name
+Grape | 格雷普（武裝裝甲車輛） | official JP: 武装装甲車両グレイプ；raw STT: Armored Tank Grape
+Naegling self-propelled rocket launcher | 涅格林自走火箭砲 | official JP: ネグリング自走ロケット砲；obs: Nagling, Neigling
+Epsilon Armored Railgun | 伊普西龍裝甲軌道砲 | in-session decision；裝甲軌道砲載具
+Proteus | 普羅透斯 | official JP: プロテウス；obs: BMX-10 Gigantic Battle Machine Proteus, Proteus Saver II；Proteus Saver II 暫作普羅透斯救援者II型
+Titan | 泰坦 | official JP: E651タイタン；obs: E-651 Titan, E651 Titan
+Brute | 布魯特 | official JP: HU04ブルート；obs: HU-04 Brute, Brut, HUO4 Brute
+Nereid | 涅雷德 | official JP: EF31ネレイド；raw STT: Naraid
+Depth Crawler | 地底爬行戰車 | in-session decision；official JP: デプスクロウラー；用於地底戰的多足步行戰車
+Reverser | 回復器 | in-session decision；傷害語音中作求援／回復裝置用語
+Power Frame | 動力骨架 | in-session decision；Fencer 裝備用語
+Psionic Link | 念動連結 | in-session decision；飛翼潛行兵相關台詞
+Aurora Steer | 極光轉向器 | user-guided 暫定譯名；raw STT: Aurora Steer
+Walking Fortress Balam | 步行要塞巴萊姆 | user-confirmed 音譯；official JP: 歩行要塞バラム；obs: Balam, Balamb, Belom, Balambi, Balams, Opelom
+moving fortress X4 | X4移動要塞 |
+Calon Tactical Bomber | 戰術爆擊機卡隆 | official JP: 戦術爆撃機カロン；raw STT: Sharon Tactical Bomber
+Artemis | 阿爾特彌斯 | official JP: アルテミス；制壓攻擊機
+Midnight | 米德奈特 | official JP: ミッドナイト；劇中多作攻擊機／戰術爆擊機
+Grindbuster | 格萊因德巴斯特 | official JP: グラインドバスター；obs: Grindbusters
+Equator Linear Cannon | 赤道線性砲（暫） |
+Killer Satellite | 殺手衛星（暫） |
+Nothung | 諾頓 | official JP: ノートゥング；obs: Notum, No-Tung, no-toon, no tomb；Z區軌道兵器／Spritefall 系統名
+satellite blaster | 衛星破壞砲（暫） |
+Spritefall | 魂靈崩落 | user-confirmed 譯名
+genocide gun | 殲滅砲（暫） |
+attack satellite | 攻擊衛星（暫） |
+satellite orbit weapon | 軌道衛星武器（暫） |
+cruise missile | 巡弋飛彈 |
+Lionic | 萊歐尼克 | official JP: ライオニック；巡弋飛彈／支援火器名
+Tempest | 坦佩斯特 | in-session decision；長距離攻擊／飛彈編隊名稱
+flying vehicle | 飛行載具 | official JP: 飛行ビークル；新型空中單位
+
+【優先二次確認的 STT 變體】
+Porters <- Reporters
+Earth Eater <- Earth heaters
+DeRoy <- Duroys / Doroids
+Vegalta <- Vigalta / VEG-ALTA
+Naegling <- Nagling / Neigling
+Walking Fortress Balam <- Balamb / Belom / Balambi / Opelom
+Erginus <- Urginis
+Brute <- Brut / HUO4
+Nothung <- Notum / No-Tung / no-toon / no tomb
+Nereid <- Naraid
+Retiarius <- Retarius
+Gigantus <- Gigantis
+Bazelart <- Baselart
