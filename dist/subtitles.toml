@@ -1,0 +1,34 @@
+# EDF 4.1 native subtitle plugin
+
+subtitle_file = "subtitles.txt"
+duration_file = "cuelength.txt"
+
+# Leave blank to select a Windows font automatically. Microsoft JhengHei is
+# preferred because it supports both Traditional Chinese and Latin text.
+font_path = ""
+font_size = 24.0
+
+fallback_display_ms = 4500
+minimum_display_ms = 2200
+tail_padding_ms = 450
+fade_in_ms = 140
+fade_out_ms = 220
+maximum_subtitles = 3
+
+maximum_width = 1200
+margin_bottom = 110
+padding_x = 18
+padding_y = 14
+line_gap = 8
+
+background_color = "#101218"
+background_alpha = 0.72
+event_color = "#FFF0A6"
+ambient_color = "#8FE7FF"
+
+# Known Steam EDF41.exe RVAs from the working Frida implementation.
+event_voice_rva = 0x3E46E0
+ambient_voice_rva = 0x3E47E0
+
+# Logs every detected or missing cue. Useful while validating a game build.
+debug_voice_events = false
